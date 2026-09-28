@@ -33,7 +33,7 @@ export default function ContactPage() {
 
       // 2. Send instant free email alert via Web3Forms
       const web3formData = new FormData();
-      web3formData.append("access_key", process.env.NEXT_PUBLIC_WEB3FORMS_KEY || "1f00caac-2938-40ca-bb34-eff902b41219");
+      web3formData.append("access_key", process.env.NEXT_PUBLIC_WEB3FORMS_KEY || "5e8f6780-e765-454a-b1e3-5aee058ff921");
       web3formData.append("subject", `New Contact Message from ${form.name}`);
       web3formData.append("from_name", "GYP SIGNATURES Website");
       web3formData.append("Customer Name", form.name);

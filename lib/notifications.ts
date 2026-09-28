@@ -8,7 +8,7 @@ export async function sendEmailNotification(payload: {
 }) {
   const accessKey =
     process.env.NEXT_PUBLIC_WEB3FORMS_KEY ||
-    "1f00caac-2938-40ca-bb34-eff902b41219";
+    "5e8f6780-e765-454a-b1e3-5aee058ff921";
 
   const formData = new FormData();
   formData.append("access_key", accessKey);
